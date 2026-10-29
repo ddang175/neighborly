@@ -1,0 +1,1289 @@
+[
+  {
+    "num": 1,
+    "chapter": "01 · Home and navigation",
+    "title": "Neighborhood home",
+    "caption": "The desktop landing page introduces Old Town, community activity, navigation, and the Ask for help action.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/001-neighborhood-home.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 2,
+    "chapter": "01 · Home and navigation",
+    "title": "Neighborhood feed",
+    "caption": "The feed combines posts, comments, votes, category tabs, search, group filters, and task-status filters.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/002-neighborhood-feed.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 3,
+    "chapter": "01 · Home and navigation",
+    "title": "Giveaway and volunteer offer cards",
+    "caption": "Giveaways and free-help offers appear beside ordinary neighborhood information.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/003-giveaway-and-volunteer-offer-cards.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 4,
+    "chapter": "01 · Home and navigation",
+    "title": "Find help page",
+    "caption": "The volunteering discovery page brings free help requests and volunteer offers together.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/004-find-help-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 5,
+    "chapter": "01 · Home and navigation",
+    "title": "My tasks page",
+    "caption": "A member’s requests, applications, and assignments appear in the task board.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/005-my-tasks-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 6,
+    "chapter": "02 · Registration and account access",
+    "title": "Login page",
+    "caption": "The simulated login page includes email/password fields, recovery, registration, and a demo shortcut.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/006-login-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 7,
+    "chapter": "02 · Registration and account access",
+    "title": "Invalid login",
+    "caption": "An incorrect demo password displays an inline error.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/007-invalid-login.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 8,
+    "chapter": "02 · Registration and account access",
+    "title": "Account recovery form",
+    "caption": "A neighbor can enter an email address for simulated account recovery.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/008-account-recovery-form.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 9,
+    "chapter": "02 · Registration and account access",
+    "title": "Recovery confirmation",
+    "caption": "The confirmation explicitly states that delivery is simulated; no email is sent.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/009-recovery-confirmation.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 10,
+    "chapter": "02 · Registration and account access",
+    "title": "Registration page",
+    "caption": "Registration collects name, email, password, neighborhood, private address, and agreement to community rules.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/010-registration-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 11,
+    "chapter": "02 · Registration and account access",
+    "title": "Completed registration form",
+    "caption": "Fictional address information is submitted privately for membership review.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/011-completed-registration-form.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 12,
+    "chapter": "02 · Registration and account access",
+    "title": "Registered account pending approval",
+    "caption": "New accounts enter a pending state, and publishing controls are disabled.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/012-registered-account-pending-approval.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 13,
+    "chapter": "02 · Registration and account access",
+    "title": "Successful simulated login",
+    "caption": "Valid demo credentials restore access to the approved neighbor’s community.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/013-successful-simulated-login.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 14,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Membership page",
+    "caption": "Membership status, self-declared residency, neighborhood selection, and private address submission are visible here.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/014-membership-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 15,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Membership request form filled",
+    "caption": "The address is restricted to membership review and is not displayed on the public feed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/015-membership-request-form-filled.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 16,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Membership review pending",
+    "caption": "Submitting a membership request returns the member to a pending state.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/016-membership-review-pending.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 17,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Moderator membership review",
+    "caption": "A local moderator can review the privately submitted address and approve or reject membership.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/017-moderator-membership-review.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 18,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Membership approved",
+    "caption": "Approval restores neighborhood publishing controls.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/018-membership-approved.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 19,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Outside neighborhood restriction",
+    "caption": "A member viewing another neighborhood cannot publish there or read that neighborhood’s member feed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/019-outside-neighborhood-restriction.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 20,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Pending member restriction",
+    "caption": "The seeded pending neighbor Sam Rivera sees the pending notice and disabled publishing actions.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/020-pending-member-restriction.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 21,
+    "chapter": "03 · Neighborhood membership",
+    "title": "Rejected membership",
+    "caption": "A rejected member remains unable to publish and sees the rejected status.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/021-rejected-membership.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 22,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Help requests filter",
+    "caption": "Selecting Help requests narrows the feed to that post type.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/022-help-requests-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 23,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Offers to help filter",
+    "caption": "Selecting Offers to help narrows the feed to that post type.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/023-offers-to-help-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 24,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Giveaways filter",
+    "caption": "Selecting Giveaways narrows the feed to that post type.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/024-giveaways-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 25,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Events filter",
+    "caption": "Selecting Events narrows the feed to that post type.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/025-events-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 26,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "PSAs filter",
+    "caption": "Selecting PSAs narrows the feed to that post type.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/026-psas-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 27,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Garage sales filter",
+    "caption": "Selecting Garage sales narrows the feed to that post type.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/027-garage-sales-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 28,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Text search results",
+    "caption": "Text search matches post titles and descriptions.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/028-text-search-results.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 29,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Empty search results",
+    "caption": "An empty-results message offers a clear way to recover by changing search or filters.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/029-empty-search-results.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 30,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Category filter",
+    "caption": "Category filtering narrows posts to a service area such as Tech help.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/030-category-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 31,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Group filter",
+    "caption": "A group filter narrows the neighborhood feed to Garden Club posts.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/031-group-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 32,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Task status filter",
+    "caption": "The task-status filter exposes the current request state.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/032-task-status-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 33,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "A few good books, free to a new home details",
+    "caption": "The detail view opens the full post, author, category, approximate location, reactions, and conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/033-a-few-good-books-free-to-a-new-home-details.jpg",
+    "width": 760,
+    "height": 524
+  },
+  {
+    "num": 34,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "A friendly hand with your tech details",
+    "caption": "The detail view opens the full post, author, category, approximate location, reactions, and conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/034-a-friendly-hand-with-your-tech-details.jpg",
+    "width": 760,
+    "height": 586
+  },
+  {
+    "num": 35,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Let’s grow something together details",
+    "caption": "The detail view opens the full post, author, category, approximate location, reactions, and conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/035-let-s-grow-something-together-details.jpg",
+    "width": 760,
+    "height": 502
+  },
+  {
+    "num": 36,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "A heads-up from the neighborhood details",
+    "caption": "The detail view opens the full post, author, category, approximate location, reactions, and conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/036-a-heads-up-from-the-neighborhood-details.jpg",
+    "width": 760,
+    "height": 524
+  },
+  {
+    "num": 37,
+    "chapter": "04 · Feed discovery and post details",
+    "title": "Saturday porch treasure hunt details",
+    "caption": "The detail view opens the full post, author, category, approximate location, reactions, and conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/037-saturday-porch-treasure-hunt-details.jpg",
+    "width": 760,
+    "height": 502
+  },
+  {
+    "num": 38,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Help request form upper section",
+    "caption": "Required fields are title, description, category, and approximate location.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/038-help-request-form-upper-section.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 39,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Help request optional fields",
+    "caption": "Optional controls include date/time, volunteer count, group sharing, neighborhood visibility, and a photo.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/039-help-request-optional-fields.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 40,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Public address validation",
+    "caption": "An exact street address is rejected in public post fields; a general area should be used.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/040-public-address-validation.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 41,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Published help request",
+    "caption": "The new request appears immediately in the browser-local neighborhood feed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/041-published-help-request.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 42,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Edit post form",
+    "caption": "Authors can edit title, description, category, location, schedule, capacity, group, sharing, and photo.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/042-edit-post-form.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 43,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Saved post changes",
+    "caption": "The revised title and volunteer capacity are reflected in the detail view.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/043-saved-post-changes.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 44,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Post deleted",
+    "caption": "Deleting an authored post removes it from the neighborhood feed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/044-post-deleted.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 45,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Free volunteer offer form",
+    "caption": "The same composer supports offers of free assistance, with category and availability details.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/045-free-volunteer-offer-form.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 46,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Published volunteer offer",
+    "caption": "The volunteer offer opens as a complete neighborhood post.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/046-published-volunteer-offer.jpg",
+    "width": 760,
+    "height": 502
+  },
+  {
+    "num": 47,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Photo attachment preview",
+    "caption": "The composer accepts an optional image and displays a preview before publishing.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/047-photo-attachment-preview.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 48,
+    "chapter": "05 · Creating and editing posts",
+    "title": "Published PSA with attachment",
+    "caption": "The published post retains its optional attachment.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/048-published-psa-with-attachment.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 49,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Help request details open",
+    "caption": "The requester sees post actions, help status, applications, task history, and neighborhood comments.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/049-help-request-details-open.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 50,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Upvote applied",
+    "caption": "The selected upvote and net vote total change together.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/050-upvote-applied.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 51,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Vote changed to downvote",
+    "caption": "Changing vote direction replaces the prior vote rather than creating an additional vote.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/051-vote-changed-to-downvote.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 52,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Vote removed",
+    "caption": "Selecting the same vote again removes it and restores the net total.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/052-vote-removed.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 53,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Appreciation reaction",
+    "caption": "A separate heart reaction records appreciation without completing the task.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/053-appreciation-reaction.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 54,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Comment posted",
+    "caption": "A neighborly comment appears with the author’s name in the public conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/054-comment-posted.jpg",
+    "width": 698,
+    "height": 247
+  },
+  {
+    "num": 55,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Address rejected in comment",
+    "caption": "The public conversation rejects exact street-address text; private chat is the appropriate place for it.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/055-address-rejected-in-comment.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 56,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Report post form",
+    "caption": "A report describes the concern and explains that penalties require moderator review.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/056-report-post-form.jpg",
+    "width": 698,
+    "height": 248
+  },
+  {
+    "num": 57,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Report submitted",
+    "caption": "A report is recorded without automatically changing the author’s reputation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/057-report-submitted.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 58,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Blocked author hidden from feed",
+    "caption": "Blocking a neighbor removes that author’s posts from the viewer’s feed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/058-blocked-author-hidden-from-feed.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 59,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Blocked-neighbor settings",
+    "caption": "Settings list blocked neighbors and provide an Unblock control.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/059-blocked-neighbor-settings.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 60,
+    "chapter": "06 · Comments, voting and boundaries",
+    "title": "Neighbor unblocked",
+    "caption": "The blocked entry is removed and the neighbor can appear in the feed again.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/060-neighbor-unblocked.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 61,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Eligible volunteer receives alert",
+    "caption": "A new help request creates a simulated alert for an available volunteer with matching preferences.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/061-eligible-volunteer-receives-alert.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 62,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Volunteer request before application",
+    "caption": "The eligible volunteer sees the application action; task chat is not available yet.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/062-volunteer-request-before-application.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 63,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Volunteer application sent",
+    "caption": "Applying does not assign the volunteer; approval is still required.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/063-volunteer-application-sent.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 64,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Application withdrawn",
+    "caption": "A volunteer can withdraw before approval.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/064-application-withdrawn.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 65,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Requester reviews two applicants",
+    "caption": "The requester can compare applicants’ task counts and points, then approve or decline them.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/065-requester-reviews-two-applicants.jpg",
+    "width": 698,
+    "height": 353
+  },
+  {
+    "num": 66,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "First volunteer assigned",
+    "caption": "Approving a volunteer changes the task to Assigned and opens a private task chat.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/066-first-volunteer-assigned.jpg",
+    "width": 698,
+    "height": 379
+  },
+  {
+    "num": 67,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Multiple volunteers approved",
+    "caption": "The task records both participants and capacity; approval remains requester-controlled.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/067-multiple-volunteers-approved.jpg",
+    "width": 698,
+    "height": 403
+  },
+  {
+    "num": 68,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Three-person task chat",
+    "caption": "The requester and two approved volunteers share a private task conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/068-three-person-task-chat.jpg",
+    "width": 698,
+    "height": 205
+  },
+  {
+    "num": 69,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Task message sent",
+    "caption": "Chat content is visible to the requester and approved task participants.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/069-task-message-sent.jpg",
+    "width": 698,
+    "height": 252
+  },
+  {
+    "num": 70,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Unassigned member has no task chat",
+    "caption": "An unrelated approved neighbor can view the public post but does not receive the private task conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/070-unassigned-member-has-no-task-chat.jpg",
+    "width": 760,
+    "height": 700
+  },
+  {
+    "num": 71,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Task in progress",
+    "caption": "An approved participant starts work, moving the task to In progress.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/071-task-in-progress.jpg",
+    "width": 698,
+    "height": 428
+  },
+  {
+    "num": 72,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Awaiting requester confirmation",
+    "caption": "The volunteer requests confirmation; the task is not completed or rewarded yet.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/072-awaiting-requester-confirmation.jpg",
+    "width": 698,
+    "height": 583
+  },
+  {
+    "num": 73,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Requester completion confirmation",
+    "caption": "The requester receives the Confirm completion action.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/073-requester-completion-confirmation.jpg",
+    "width": 698,
+    "height": 453
+  },
+  {
+    "num": 74,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Task completed and rewarded once",
+    "caption": "Completion is confirmed and each approved volunteer receives one ten-point task reward.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/074-task-completed-and-rewarded-once.jpg",
+    "width": 698,
+    "height": 454
+  },
+  {
+    "num": 75,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Task experience feedback",
+    "caption": "Either task party can report an experience for moderator review; reports do not impose automatic penalties.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/075-task-experience-feedback.jpg",
+    "width": 698,
+    "height": 248
+  },
+  {
+    "num": 76,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Leaderboard after completion",
+    "caption": "The leaderboard reflects the confirmed task points for both approved volunteers.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/076-leaderboard-after-completion.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 77,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Completed task board filter",
+    "caption": "The task board can be narrowed to completed work.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/077-completed-task-board-filter.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 78,
+    "chapter": "07 · Volunteer request lifecycle",
+    "title": "Task chat listed in Messages",
+    "caption": "Approved task conversations also appear in the member’s conversation list.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/078-task-chat-listed-in-messages.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 79,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Application declined",
+    "caption": "The requester can decline an application without assigning the volunteer or opening chat.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/079-application-declined.jpg",
+    "width": 698,
+    "height": 225
+  },
+  {
+    "num": 80,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Task cancelled",
+    "caption": "Cancelling changes the state while retaining the assignment history.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/080-task-cancelled.jpg",
+    "width": 698,
+    "height": 347
+  },
+  {
+    "num": 81,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Request reopened with retained history",
+    "caption": "Reopening restores Open status, clears active assignments, and retains prior approvals and cancellation history.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/081-request-reopened-with-retained-history.jpg",
+    "width": 698,
+    "height": 300
+  },
+  {
+    "num": 82,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Fallback unavailable before 72 hours",
+    "caption": "The fallback closure control is disabled until the confirmation waiting period has elapsed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/082-fallback-unavailable-before-72-hours.jpg",
+    "width": 654,
+    "height": 119
+  },
+  {
+    "num": 83,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Fallback enabled after demo clock advance",
+    "caption": "The explicit demo clock simulates the proposed 72-hour waiting period.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/083-fallback-enabled-after-demo-clock-advance.jpg",
+    "width": 654,
+    "height": 119
+  },
+  {
+    "num": 84,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Fallback task closure",
+    "caption": "The task closes with a recorded fallback history entry and one-time completion points.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/084-fallback-task-closure.jpg",
+    "width": 698,
+    "height": 448
+  },
+  {
+    "num": 85,
+    "chapter": "08 · Cancellation, rejection and fallback",
+    "title": "Fallback queued for review",
+    "caption": "Fallback closure produces a moderator-review report rather than silently bypassing oversight.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/085-fallback-queued-for-review.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 86,
+    "chapter": "09 · Groups and local circles",
+    "title": "Groups page",
+    "caption": "Approved local circles list their purpose, sample member count, join/leave action, and group page.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/086-groups-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 87,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group page as member",
+    "caption": "A joined group shows posts, a mute option, and a group-post composer action.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/087-group-page-as-member.jpg",
+    "width": 760,
+    "height": 388
+  },
+  {
+    "num": 88,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group muted from circle page",
+    "caption": "Group members can silence matching alerts directly from the circle.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/088-group-muted-from-circle-page.jpg",
+    "width": 760,
+    "height": 388
+  },
+  {
+    "num": 89,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group-specific composer",
+    "caption": "Opening the composer from a circle preselects the group.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/089-group-specific-composer.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 90,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group-only sharing setting",
+    "caption": "Unchecking neighborhood sharing keeps a group post restricted to the circle.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/090-group-only-sharing-setting.jpg",
+    "width": 590,
+    "height": 700
+  },
+  {
+    "num": 91,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group left",
+    "caption": "After leaving, the group offers Join group and matching group alerts no longer target the member.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/091-group-left.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 92,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group joined",
+    "caption": "Joining a new circle changes its action to Joined / Leave.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/092-group-joined.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 93,
+    "chapter": "09 · Groups and local circles",
+    "title": "Propose group dialog",
+    "caption": "A new circle requires a name and description and waits for moderator approval.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/093-propose-group-dialog.jpg",
+    "width": 590,
+    "height": 406
+  },
+  {
+    "num": 94,
+    "chapter": "09 · Groups and local circles",
+    "title": "Duplicate group detected",
+    "caption": "A duplicate group name is rejected without creating another circle.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/094-duplicate-group-detected.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 95,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group proposal pending",
+    "caption": "The proposed group is listed as pending and is not yet available for joining.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/095-group-proposal-pending.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 96,
+    "chapter": "09 · Groups and local circles",
+    "title": "Group proposal in moderator queue",
+    "caption": "A local moderator reviews proposed groups within the neighborhood.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/096-group-proposal-in-moderator-queue.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 97,
+    "chapter": "09 · Groups and local circles",
+    "title": "Approved group available",
+    "caption": "An approved group becomes visible with its submitted description and a Join group control.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/097-approved-group-available.jpg",
+    "width": 305,
+    "height": 412
+  },
+  {
+    "num": 98,
+    "chapter": "10 · Private messaging",
+    "title": "Messages landing page",
+    "caption": "The conversation list includes message requests and approved task chats; no conversation is selected initially.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/098-messages-landing-page.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 99,
+    "chapter": "10 · Private messaging",
+    "title": "Incoming private-message request",
+    "caption": "The recipient must accept or decline before either side can exchange private messages.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/099-incoming-private-message-request.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 100,
+    "chapter": "10 · Private messaging",
+    "title": "Message request declined",
+    "caption": "Declining removes the request without creating a conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/100-message-request-declined.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 101,
+    "chapter": "10 · Private messaging",
+    "title": "New message-request recipient",
+    "caption": "The sender chooses an approved neighbor from the same neighborhood.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/101-new-message-request-recipient.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 102,
+    "chapter": "10 · Private messaging",
+    "title": "Outgoing request awaiting consent",
+    "caption": "The sender sees a waiting state; no message input appears before acceptance.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/102-outgoing-request-awaiting-consent.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 103,
+    "chapter": "10 · Private messaging",
+    "title": "Recipient reviews message request",
+    "caption": "The recipient can accept the new request or decline it.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/103-recipient-reviews-message-request.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 104,
+    "chapter": "10 · Private messaging",
+    "title": "Accepted private conversation",
+    "caption": "Acceptance opens the private message input.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/104-accepted-private-conversation.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 105,
+    "chapter": "10 · Private messaging",
+    "title": "Private message delivered in simulation",
+    "caption": "The message is added to the accepted conversation in local browser data.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/105-private-message-delivered-in-simulation.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 106,
+    "chapter": "10 · Private messaging",
+    "title": "Private conversation viewed by other participant",
+    "caption": "The other accepted participant sees the same simulated message.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/106-private-conversation-viewed-by-other-participant.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 107,
+    "chapter": "10 · Private messaging",
+    "title": "Private conversation hidden from unrelated neighbor",
+    "caption": "An unrelated account does not see or access another pair’s private conversation.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/107-private-conversation-hidden-from-unrelated-neighbor.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 108,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Alerts page with new item",
+    "caption": "Website alerts show read state and simulated delivery channels.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/108-alerts-page-with-new-item.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 109,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Alerts marked read",
+    "caption": "Mark all as read clears the visible unread state.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/109-alerts-marked-read.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 110,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Empty alerts state",
+    "caption": "A member with no matching website alerts sees a quiet-state message.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/110-empty-alerts-state.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 111,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Notification settings",
+    "caption": "A neighbor controls website, email, simulated browser delivery, categories, group muting, and blocked neighbors.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/111-notification-settings.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 112,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Delivery channels changed",
+    "caption": "The demo stores channel preferences; browser delivery remains explicitly simulated.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/112-delivery-channels-changed.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 113,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Category subscription changed",
+    "caption": "A deselected category no longer qualifies the member for matching request alerts.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/113-category-subscription-changed.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 114,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Group alert mute enabled",
+    "caption": "A muted group is excluded from matching request delivery.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/114-group-alert-mute-enabled.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 115,
+    "chapter": "11 · Alerts and preferences",
+    "title": "Preferences persist after reload",
+    "caption": "Saved browser-local settings survive a page reload.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/115-preferences-persist-after-reload.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 116,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Member profile",
+    "caption": "The profile presents the neighbor, membership status, bio, availability, points, task count, and badges.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/116-member-profile.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 117,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Profile editor",
+    "caption": "The member can change the display name and biography.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/117-profile-editor.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 118,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Profile edits saved",
+    "caption": "The updated biography appears on the profile.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/118-profile-edits-saved.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 119,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Volunteering paused",
+    "caption": "Pausing availability removes the member from eligible volunteer alert targeting and prevents new applications.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/119-volunteering-paused.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 120,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Volunteering resumed",
+    "caption": "Availability can be restored without changing neighborhood membership.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/120-volunteering-resumed.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 121,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Neighborhood leaderboard",
+    "caption": "The leaderboard ranks approved neighbors using sample points and confirmed work.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/121-neighborhood-leaderboard.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 122,
+    "chapter": "12 · Profile, availability and recognition",
+    "title": "Badges and scoring rules",
+    "caption": "Recognition explains net vote points, ten-point task rewards, point/task/category badge thresholds, and reviewed penalties.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/122-badges-and-scoring-rules.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 123,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Moderator dashboard",
+    "caption": "Local moderators review reports, membership, and group proposals.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/123-moderator-dashboard.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 124,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Report review dialog",
+    "caption": "Every moderation decision includes an action, recorded reason, and optional justified point adjustment.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/124-report-review-dialog.jpg",
+    "width": 590,
+    "height": 488
+  },
+  {
+    "num": 125,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Resolved report decision",
+    "caption": "The resolved report retains the recorded decision reason.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/125-resolved-report-decision.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 126,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Suspension review action",
+    "caption": "Suspension requires an explicit moderator decision and reason.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/126-suspension-review-action.jpg",
+    "width": 590,
+    "height": 488
+  },
+  {
+    "num": 127,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Suspended-member restriction",
+    "caption": "The suspended account sees its membership state and loses publishing controls.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/127-suspended-member-restriction.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 128,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Escalation prepared",
+    "caption": "A moderator may send an unresolved case to nonprofit staff with a recorded reason.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/128-escalation-prepared.jpg",
+    "width": 590,
+    "height": 488
+  },
+  {
+    "num": 129,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Staff escalations dashboard",
+    "caption": "Staff can review the escalated report and proposed neighborhoods.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/129-staff-escalations-dashboard.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 130,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Content removal and reviewed penalty",
+    "caption": "Staff can remove a reported post and record a justified reputation adjustment.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/130-content-removal-and-reviewed-penalty.jpg",
+    "width": 590,
+    "height": 488
+  },
+  {
+    "num": 131,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Staff decision retained in history",
+    "caption": "The resolved escalated report remains visible with its reason.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/131-staff-decision-retained-in-history.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 132,
+    "chapter": "13 · Reports, enforcement and staff review",
+    "title": "Reported content removed",
+    "caption": "The removed PSA is absent from the neighborhood feed.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/132-reported-content-removed.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 133,
+    "chapter": "14 · Neighborhood proposals and staff decisions",
+    "title": "Propose neighborhood dialog",
+    "caption": "A neighbor can propose a missing neighborhood for nonprofit staff review.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/133-propose-neighborhood-dialog.jpg",
+    "width": 590,
+    "height": 284
+  },
+  {
+    "num": 134,
+    "chapter": "14 · Neighborhood proposals and staff decisions",
+    "title": "Duplicate neighborhood warning",
+    "caption": "Known or already-proposed neighborhood names are rejected.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/134-duplicate-neighborhood-warning.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 135,
+    "chapter": "14 · Neighborhood proposals and staff decisions",
+    "title": "Neighborhood proposal pending",
+    "caption": "A submitted neighborhood is listed as waiting for staff review.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/135-neighborhood-proposal-pending.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 136,
+    "chapter": "14 · Neighborhood proposals and staff decisions",
+    "title": "Neighborhood staff review queue",
+    "caption": "Staff review the new neighborhood proposal separately from local group approvals.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/136-neighborhood-staff-review-queue.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 137,
+    "chapter": "14 · Neighborhood proposals and staff decisions",
+    "title": "Neighborhood proposal approved",
+    "caption": "Staff approval creates an available neighborhood listing.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/137-neighborhood-proposal-approved.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 138,
+    "chapter": "14 · Neighborhood proposals and staff decisions",
+    "title": "Approved neighborhood still needs membership",
+    "caption": "Creating a neighborhood does not grant posting permission; the member must still request membership.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/138-approved-neighborhood-still-needs-membership.jpg",
+    "width": 1280,
+    "height": 800
+  },
+  {
+    "num": 139,
+    "chapter": "15 · Responsive layouts and demo controls",
+    "title": "Desktop layout at 1366 by 768",
+    "caption": "The desktop layout keeps the main navigation, community dashboard, and primary action visible.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/139-desktop-layout-at-1366-by-768.jpg",
+    "width": 1366,
+    "height": 768
+  },
+  {
+    "num": 140,
+    "chapter": "15 · Responsive layouts and demo controls",
+    "title": "Narrow layout at 390 pixels",
+    "caption": "The narrow layout reorganizes the same frontend without horizontal page overflow.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/140-narrow-layout-at-390-pixels.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "num": 141,
+    "chapter": "15 · Responsive layouts and demo controls",
+    "title": "Narrow navigation drawer",
+    "caption": "A compact menu exposes the same app sections.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/141-narrow-navigation-drawer.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "num": 142,
+    "chapter": "15 · Responsive layouts and demo controls",
+    "title": "Narrow groups layout",
+    "caption": "Local circle cards stack vertically on a narrow display.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/142-narrow-groups-layout.jpg",
+    "width": 390,
+    "height": 844
+  },
+  {
+    "num": 143,
+    "chapter": "15 · Responsive layouts and demo controls",
+    "title": "Demo reset and role toolbar",
+    "caption": "Reset demo restores sample data; the toolbar switches between requester, volunteers, pending neighbor, moderator, and staff.",
+    "path": "/Users/ddang175/bench/FrontEndProjectManagement/docs/walkthrough/143-demo-reset-and-role-toolbar.jpg",
+    "width": 1280,
+    "height": 800
+  }
+]
