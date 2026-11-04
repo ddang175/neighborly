@@ -1,46 +1,56 @@
-# Neighborly — Community Help App
+# Best Community Service — Interactive Prototype
 
-A working frontend prototype of the supplied SE 3290 scope baseline (v1.1), set in Ames, Iowa. React + TypeScript + Vite. **No backend, database, real authentication, or live messaging/notification services.** All people, addresses, conversations, and activity are fictional. Demo state stays in this browser’s localStorage.
+A client-side community-service prototype for SE 3290. This replaces the previous neighborhood social application while preserving its approved green/cream visual style.
 
 ## Run
-
-Requires Node.js 22.12+ (developed with Node 24).
 
 ```sh
 npm install
 npm run dev
 ```
 
-Open the local address printed by Vite (normally http://127.0.0.1:5173).
+Open the local URL printed by Vite. Node.js 24 LTS is recommended (verified with 24.20.0); the installed Vitest requires Node 22.12+, 24.x, or 26+. No backend or environment variables are needed.
+
+## Teammate / Figma handoff
+
+Start with **[APPLICATION_FLOWS.md](docs/APPLICATION_FLOWS.md)**. It covers every user journey, screen, field, branch, state transition, sample price, mock-admin action, and implementation boundary. Give it and this source to your teammate's agent.
+
+- [Approved design](docs/superpowers/specs/2026-11-03-community-service-redo-design.md)
+- [Implementation plan and verification record](docs/superpowers/plans/2026-11-03-community-service-redo.md)
+- [Current screenshots](docs/screenshots/redo/)
+
+Screenshots outside `docs/screenshots/redo/` and the older Neighborly planning document are historical references for the superseded app, not the current behavior.
+
+## Included flows
+
+- Rooms with catering, cleaning, tables, and chairs.
+- Classes: take a dated session; volunteer to teach one-time or weekly sessions.
+- Transportation: scheduled shuttles, on-demand requests, volunteer driving.
+- Home care: cleaning, nursing, welfare checks; receive or offer care.
+- Anonymous and registered donations, simulated payment and sample receipt.
+- Room + Shuttle and Classes + Shuttle packages with shared details/review.
+- Limited mock admin for sample prices and class approval.
+
+Guests can browse/search; service actions require login except anonymous donations. New teaching submissions remain unpublished until approved. No extra approval gates are added to other services.
+
+## Demo accounts
+
+| Role       | Email              | Password   | Shortcut                            |
+| ---------- | ------------------ | ---------- | ----------------------------------- |
+| Member     | maya@example.test  | neighborly | Continue as Maya                    |
+| Mock admin | admin@example.test | neighborly | Mock Admin → Continue as Demo Admin |
+
+Signup accepts multiple volunteer interests. Credentials are fictional and authentication is simulated. All data lives in memory in the current tab: page refresh resets everything. Reset demo also clears the dataset after confirmation. No real payments, email, files, or database are involved.
+
+Sample prices are editable; they are not instructor-specified amounts. The limited admin, class approval, and weekly recurrence were explicitly agreed extensions to the lecture baseline. See the flow document for provenance and exact scope.
+
+## Verify and build
 
 ```sh
-npm test                 # Domain rule tests
-npm run test:e2e         # Chromium end-to-end tests; starts Vite on port 5174
-npm run build           # TypeScript validation and production build
-npm run preview         # Preview the built app
+npm test
+npm run build
+npx playwright install chromium  # once, if needed
+npm run test:e2e -- --workers=1
 ```
 
-On a fresh machine, run `npx playwright install chromium` once before browser tests. `npx playwright show-report` opens the HTML report. Failure screenshots and traces are retained under `test-results/`. Final screen captures are in [docs/screenshots](docs/screenshots).
-
-## Present the idea
-
-The app starts as approved neighbor **Maya Chen**. The green toolbar switches fictional accounts without losing demo activity. **Reset demo** restores all sample data.
-
-1. As Maya, select **Ask for help**, fill the title, description, category, and approximate location, and publish. Leave the volunteer count at two.
-2. Switch to **Eli Brooks**, open **Alerts**, find the request in **Neighborhood**, and select **Volunteer for this**.
-3. Switch to **June Park** and apply to the same request.
-4. Switch to Maya. Approve Eli and June. The private three-person task chat opens.
-5. Send a message; switch to Eli; select **Start task**, then **Request completion**.
-6. Switch to Maya and **Confirm completion**. Each approved volunteer receives +10 points exactly once. Check **Leaderboard**.
-7. On another task, cancel and reopen it to see retained history. Alternatively, advance the explicit demo clock after requesting completion to demonstrate the reviewable 72-hour fallback.
-8. Report a post, switch to **Robin Ellis** (moderator), and review it. Record a decision reason; resolve, remove, suspend, or escalate. **Taylor Reed** (staff) reviews escalations and proposed neighborhoods.
-
-Other available scenarios: pending-member restrictions (Sam Rivera), simulated registration/login/recovery, neighborhood selection and membership review, group proposals and approval, join/leave, category/status/group search, optional photo uploads, editing/deleting posts, comments, reversible voting and appreciation, message requests with recipient consent, availability and notification settings, blocking, points, badges, and reviewed reputation adjustments.
-
-For simulated login, use `maya@example.test` and password `neighborly`. Other seeded emails use the account ID (`eli`, `june`, `pending`, `mod`, `staff`) at `example.test`, with the same password.
-
-## Scope and limits
-
-The [requirements coverage map](docs/requirements.md) links scope areas to prototype screens and tests. [Validation notes](docs/validation.md) record test evidence and limitations.
-
-Account switching, credentials, permissions, time advancement, moderation, and delivery are client-side simulations for presentation. Do not enter real credentials or resident data. Exact address fields are private in the demonstrated views; street-address checks are illustrative text validation, not an exhaustive privacy detection service. Optional uploaded images should contain fictional data. Aggregate community statistics are sample figures. No production readiness or instructor acceptance is claimed.
+The production build is written to `dist/`. HTML entry is `index.html`; active TypeScript/React source is under `src/`. For a local production preview, use `npm run preview` after building.

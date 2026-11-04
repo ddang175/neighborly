@@ -1,99 +1,112 @@
 import { useState } from "react";
 import type { FormEvent } from "react";
-import { Leaf, ArrowUpRight, LockKeyhole } from "lucide-react";
-import { seed } from "./model";
-import type { User } from "./model";
-
-import { useApp } from "./context";
-import { Field, NeighborhoodOptions } from "./ui";
-import { NeighborhoodArt } from "./Feed";
-
+import { Leaf, ArrowUpRight, ArrowLeft, LockKeyhole } from "lucide-react";
+import type { User, VolunteerActivity } from "./services/model";
+import { useServices } from "./services/context";
+import { Field, CenterArt } from "./services/ui";
 export function Auth({
   onLogin,
   onRegister,
+  onCancel,
+  admin = false,
 }: {
   onLogin: (id: string) => void;
   onRegister: (u: User) => void;
+  onCancel: () => void;
+  admin?: boolean;
 }) {
-  const { s, notify } = useApp();
-  const [mode, setMode] = useState("login"),
+  const { state } = useServices();
+  const [mode, setMode] = useState<"login" | "register" | "recovery">("login"),
     [error, setError] = useState("");
-  const submit = (e: FormEvent<HTMLFormElement>) => {
+  function submit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const f = new FormData(e.currentTarget),
-      email = String(f.get("email")).toLowerCase();
+      email = String(f.get("email")).trim().toLowerCase();
+    setError("");
     if (mode === "recovery") {
-      notify("Recovery email simulated");
       setError("Recovery email simulated. No real email was sent.");
       return;
     }
     if (mode === "register") {
-      if (s.users.some((u) => u.email === email)) {
-        setError("An account with this email already exists");
+      if (state.users.some((u) => u.email === email)) {
+        setError("An account with this email already exists.");
         return;
       }
-      const template = seed().users[3];
+      const name = String(f.get("name")).trim(),
+        address = String(f.get("address")).trim();
+      if (!name || !address) {
+        setError("Enter your name and address.");
+        return;
+      }
       onRegister({
-        ...template,
         id: crypto.randomUUID(),
-        name: String(f.get("name")).trim(),
+        name,
         email,
+        address,
         password: String(f.get("password")),
-        address: String(f.get("address")),
-        neighborhood: String(f.get("neighborhood")),
-        points: 0,
-        completed: 0,
-        categoryCounts: {},
-        groups: [],
+        activities: f.getAll("activities") as VolunteerActivity[],
       });
       return;
     }
-    const user = s.users.find(
+    const u = state.users.find(
       (u) => u.email === email && u.password === String(f.get("password")),
     );
-    if (user) onLogin(user.id);
-    else setError("Email or password doesn’t match a demo account.");
-  };
+    if (u && (!admin || u.admin)) onLogin(u.id);
+    else
+      setError(
+        admin
+          ? "Use the mock admin account shown below."
+          : "Email or password doesn’t match a demo account.",
+      );
+  }
   return (
     <div className="auth-screen">
       <div className="auth-story">
-        <a className="brand" href="#">
+        <a
+          className="brand"
+          href="#"
+          onClick={(e) => {
+            e.preventDefault();
+            onCancel();
+          }}
+        >
           <span className="brand-mark">
             <Leaf size={25} />
           </span>
-          neighborly.
+          <span className="brand-name">Best Community Service.</span>
         </a>
         <h1>
-          A little help.
-          <br />A lot more
+          Community
           <br />
-          <em>belonging.</em>
+          <em>services.</em>
         </h1>
-        <p>
-          Good neighbors make a great neighborhood.
-          <br />
-          Find your little corner of Ames.
-        </p>
-        <NeighborhoodArt />
-        <span className="eyebrow">BUILT ON KINDNESS. ROOTED IN AMES.</span>
+        <p>Rooms, classes, transportation, and home care.</p>
+        <CenterArt />
+        <span className="eyebrow">AMES, IOWA</span>
       </div>
       <section className="auth-form">
-        <span className="eyebrow">YOUR COMMUNITY IS RIGHT HERE</span>
+        <button className="text-button" onClick={onCancel}>
+          <ArrowLeft size={14} />
+          Back to browsing
+        </button>
+        <span className="eyebrow">
+          {admin ? "MOCK ADMIN · PROTOTYPE ONLY" : "ACCOUNT ACCESS"}
+        </span>
         <h1>
           {mode === "register"
-            ? "Make yourself at home."
+            ? "Create an account"
             : mode === "recovery"
-              ? "Let’s get you back in."
-              : "Good to see you, neighbor."}
+              ? "Reset your password"
+              : "Log in"}
         </h1>
         <p className="muted">
-          {mode === "register"
-            ? "A few details, and you’re one step closer to your community."
-            : "A warm welcome to your neighborhood."}
+          {admin
+            ? "Sign in to review class submissions and sample prices."
+            : "Sign in to book services or volunteer."}
         </p>
         <form className="form" onSubmit={submit}>
           {error && (
-            <p className="form-error" role="alert">
+            <p role="alert" className="form-error">
               {error}
             </p>
           )}
@@ -108,14 +121,14 @@ export function Auth({
               name="email"
               autoComplete="email"
               required
-              placeholder="maya@example.test"
+              placeholder={admin ? "admin@example.test" : "maya@example.test"}
             />
           </Field>
           {mode !== "recovery" && (
             <Field label="Password">
               <input
-                name="password"
                 type="password"
+                name="password"
                 autoComplete={
                   mode === "register" ? "new-password" : "current-password"
                 }
@@ -126,26 +139,28 @@ export function Auth({
           )}
           {mode === "register" && (
             <>
-              <Field label="Neighborhood">
-                <select name="neighborhood">
-                  <NeighborhoodOptions />
-                </select>
+              <Field label="Mailing address">
+                <input name="address" autoComplete="street-address" required />
               </Field>
-              <Field label="Private address">
-                <input name="address" required />
-              </Field>
+              <fieldset className="choice-fieldset">
+                <legend>Volunteer interests (optional · choose any)</legend>
+                {(
+                  ["Teach", "Drive", "Give Home Care"] as VolunteerActivity[]
+                ).map((v) => (
+                  <label className="check-row" key={v}>
+                    <input name="activities" type="checkbox" value={v} />
+                    {v}
+                  </label>
+                ))}
+              </fieldset>
               <p className="private-note">
                 <LockKeyhole size={15} />
-                Private, self-declared residency. A moderator reviews your
-                membership.
+                Use fictional details. Accounts exist only for this browser
+                session.
               </p>
-              <label className="check-row">
-                <input type="checkbox" required />I agree to keep it local,
-                free, and neighborly.
-              </label>
             </>
           )}
-          <button className="primary" type="submit">
+          <button type="submit" className="primary">
             {mode === "register"
               ? "Create account"
               : mode === "recovery"
@@ -154,7 +169,7 @@ export function Auth({
             <ArrowUpRight size={16} />
           </button>
         </form>
-        {mode === "login" && (
+        {mode === "login" && !admin && (
           <button
             className="text-button"
             onClick={() => {
@@ -165,23 +180,32 @@ export function Auth({
             Forgot password?
           </button>
         )}
-        <button
-          className="secondary auth-switch"
-          onClick={() => {
-            setMode(mode === "login" ? "register" : "login");
-            setError("");
-          }}
-        >
-          {mode === "login" ? "Create an account" : "Back to log in"}
-        </button>
+        {!admin && (
+          <button
+            className="secondary auth-switch"
+            onClick={() => {
+              setMode(mode === "login" ? "register" : "login");
+              setError("");
+            }}
+          >
+            {mode === "login" ? "Create an account" : "Back to log in"}
+          </button>
+        )}
         <div className="demo-credentials">
-          <span className="eyebrow">TAKE A LOOK AROUND</span>
+          <span className="eyebrow">DEMO ACCOUNT</span>
           <p>
-            This is a frontend prototype. Use <strong>maya@example.test</strong>{" "}
-            / <strong>neighborly</strong> or enter a demo account below.
+            Simulated account:{" "}
+            <strong>
+              {admin ? "admin@example.test" : "maya@example.test"}
+            </strong>{" "}
+            / <strong>neighborly</strong>. No real authentication or email.
           </p>
-          <button className="text-button" onClick={() => onLogin("maya")}>
-            Continue as Maya <ArrowUpRight size={15} />
+          <button
+            className="text-button"
+            onClick={() => onLogin(admin ? "admin" : "maya")}
+          >
+            {admin ? "Continue as Demo Admin" : "Continue as Maya"}
+            <ArrowUpRight size={15} />
           </button>
         </div>
       </section>

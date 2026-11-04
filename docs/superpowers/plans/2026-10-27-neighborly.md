@@ -1,4 +1,4 @@
-# Neighborly implementation and validation plan
+# Best Community Service implementation and validation plan
 
 Goal: Build the Community Help App scope as a frontend-only Ames demonstration.
 Architecture: React/TypeScript views over a tested local state model. localStorage persists fictional data. Demo roles simulate accounts; no APIs, backend, or real delivery.
@@ -11,4 +11,4 @@ Source: Google scope baseline v1.1, document 1BZFUlM6-j86mst1qKpeVt4Rpfp1dJXovP1
 5. Run browser scenarios, correct failures, verify production build, and capture final screenshots.
 
 Review focus: repeating completion cannot duplicate points; switching account cannot reveal private chat; cancellation preserves history; muted groups/category/channel settings filter delivery; pending/outside members cannot publish. Address validation prevents public street numbers.
-Design choices: Neighborly working name; warm green/cream visual identity; default accepted neighbor Maya Chen; fictional Ames data; deterministic local reset and role switcher; 72-hour closure demonstrated using an explicit demo clock.
+Design choices: Best Community Service working name; warm green/cream visual identity; default accepted neighbor Maya Chen; fictional Ames data; deterministic local reset and role switcher; 72-hour closure demonstrated using an explicit demo clock.
